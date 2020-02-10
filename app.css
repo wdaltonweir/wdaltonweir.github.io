@@ -1,0 +1,316 @@
+body {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 1.3rem;
+}
+::selection {
+  background: yellow; /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: yellow; /* WebKit/Blink Browsers */
+  color: black;
+}
+
+.logo {
+  text-decoration: underline;
+  text-decoration-color: #f59d4b;
+}
+
+.logo a {
+  text-decoration: underline;
+  text-decoration-color: #f59d4b;
+}
+
+.header {
+  margin-top: 20vh;
+  max-width: 67.8%;
+  text-align: center;
+  /* padding-top: 25%; */
+}
+
+.image {
+  min-height: 33vh;
+  padding-left: 0px;
+  padding-right: 0px;
+  /* background-repeat: no-repeat;
+  background-size: 33.3333333vw 33.333333vw; */
+}
+
+.nav a {
+  font-size: 1.1em !important;
+}
+.nav li {
+  margin-right: 15px;
+  margin-left: 15px;
+  overflow: visible;
+}
+
+.dropdown-toggle {
+  display: none;
+}
+
+.footer {
+  margin-top: 10vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: rgb(25, 25, 25);
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 3.5%;
+}
+
+.footer li {
+  margin-bottom: 20px;
+}
+
+.item-description {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(25, 25, 25, 0.9);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.block-image:hover .item-description {
+  display: flex;
+  align-items: center;
+  opacity: 1;
+}
+
+.about-heading {
+  font-size: 18rem;
+  overflow: hidden;
+  display: block;
+  letter-spacing: 12rem;
+  margin-right: -12rem;
+  text-align: right;
+  margin-top: 20vh;
+}
+
+.border-bottom {
+  border-color: black !important;
+}
+
+.border-right {
+  border-color: black !important;
+  border-width: 1px !important;
+}
+
+.article-content {
+  margin-top: 5vh;
+}
+
+.article-title {
+  border-bottom: solid;
+  background-color: transparent;
+  border-color: black;
+}
+
+.h1-shadow {
+  text-shadow: 4px 7px 10px #000000a4;
+}
+
+.h4-shadow {
+  text-shadow: 1px 2px 3px #000000a4;
+}
+
+.h5-shadow {
+  text-shadow: 1px 2px 3px #000000a4;
+}
+
+.title {
+  white-space: nowrap;
+  color: #000000 !important;
+}
+
+.content-image {
+  border-radius: 50% 0 50% 0;
+  margin: auto;
+  display: block;
+}
+
+.content-gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(40, 6, 61, 1) 100%
+  );
+}
+
+.content-spacing {
+  margin-top: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.navbar-link {
+  border-bottom: solid;
+  border-color: orangered;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:link {
+  color: black;
+}
+
+.navbar a:visited {
+  color: black;
+}
+
+.navbar a:hover {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+
+.navbar-link a {
+  color: black;
+}
+
+.navbar-list-item a:link {
+  color: black;
+}
+
+.navbar-list-item a:visited {
+  color: black;
+}
+
+.navbar-list-item a:hover {
+  color: rgb(80, 80, 80);
+  border-bottom: solid;
+  background-color: transparent;
+  border-color: orangered;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  background-color: yellow;
+  color: black;
+}
+
+a:focus {
+  outline: none;
+  background-color: yellow;
+  color: black; 
+}
+
+/* .navbar-list-item a:focus-visible {
+  outline: 3px solid blue; /* That'll show 'em */
+
+.navbar-list-item {
+  border: none;
+  padding: 0 1.25rem;
+}
+/* .navbar-list-item.active {
+  border-bottom: solid;
+  background-color: transparent;
+  border-color: orangered;
+} */
+
+.orange-underline {
+  border-bottom: solid;
+  background-color: transparent;
+  border-color: orangered;
+}
+
+.navbar-list {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.navbar-list li {
+  float: left;
+}
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+  /* background: white; */
+  background-color: transparent;
+  color: black;
+}
+
+.fa-linkedin {
+  background-color: transparent;
+  color: black;
+}
+
+.fa-circle {
+  color: white;
+}
+
+.nav-dropdown {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
